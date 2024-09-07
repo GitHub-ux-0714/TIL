@@ -50,15 +50,19 @@ Tip ) 내 프로젝트를 공유하고 싶으면? 내 github 파일들이 있는
 Tip ) 변경된 이 문서를 다시 업로드 시켜놓고 싶으면?
 
 --> git add .  만 해주면 됨.
---> git init 해줄 필요 없음.
+    (git init 해줄 필요 없음.)
 
 #다시 수정한 이 프로젝트를 다시 보내기 
 
-    git status를 이용해 내역을 보자. 
-        그러면 git add . 가 수정된 부분을 알려준다.
-    이제 수정이 새로 되었으니 history 를 새로 부여해줘야한다. (ex 찐 최종 -> 찐찐 최종)4
-        git commit -m "second commit" 을 이용해서 부여해줌. (m 은 message 라는 뜻)
-        git push origin main 으로 사이트로 쏴주자. 
+    1. git add . 로 재업로드
+
+    2. git status를 이용해 내역을 보자. 
+       그러면 git add . 가 수정된 부분을 알려준다.
+    
+    3. git commit -m "second commit" 을 이용해서 부여해줌. (m 은 message 라는 뜻)
+       이제 수정이 새로 되었으니 history 를 새로 부여해줘야한다) (ex 찐 최종 -> 찐찐 최종)
+        
+    4. git push origin main 으로 사이트로 쏴주자. 
 
 
 
